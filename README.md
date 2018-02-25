@@ -17,3 +17,4 @@ java.lang.ClassCastException: java.lang.Class cannot be cast to java.util.List<b
         return null;<br/>
     }<br/>
   }<br/>
+  集成cookie中sessionId控制，采用持久化方案保存sessionId+有效时间，可令请求更高效，只是代码目前在别的项目中尚未单独发布，敬请期待。
